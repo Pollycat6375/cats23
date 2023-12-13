@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="icon" href="favicon.ico"/>
+<link rel="stylesheet" href="style2.css"/>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Infant:ital,wght@1,300&family=Jost:ital,wght@1,200;1,500&family=Poiret+One&display=swap" rel="stylesheet">
+<title>Img</title>
+</head>
+<body class="body">
+    <div class="container">
+        <h1 class="title">Котики</h1>
+    </div>
+    <div>
+    <div class="cat">
+        <h3 class="card"> - Где ты была сегодня, киска?
+            - У королевы, у английской.
+            - Что ты видала при дворе?
+            - Видала мышку на ковре!</h3>
+    </div>
+</div>
+<div class="card">
+<form>
+<div>
+<label>Логин</label>
+<input type="text" name="login" value=""required placeholder="Введите логин"/>
+<label>Почта</label>
+<input type="email" name="mail" value="" placeholder="Введите почту"/>
+<label>Номер телефона</label>
+<input type="tel" name="telephone" value=""pattern="8[0-9]{3}-[0-9]{2}-[0-9]{2}" placeholder="Введите номер телефона"/>
+</div>
+<div>
+    <label>Пароль</label>
+    <input type="password" name="password" value=""required placeholder="Введите пароль"/>
+</div>
+<div>
+    <button type="submit">Отправить</button>
+    <button type="reset">Стереть</button>
+</div>
+<div>
+<label>Men</label>
+<input type="radio"value=""/>
+<label>Women</label>
+<input type="radio"value=""/>
+</div>
+<div>
+<input type="checkbox" name="cat1" value="Рыжий котик"  id="кот1"/>
+<label for="кот1">Рыжий котик</label>
+<input type="checkbox" name="cat2" value="Черный котик"  id="кот2"/>
+<label for="кот2">Черный котик</label>
+<input type="checkbox" name="cat3" value="Белый котик"  id="кот3"/>
+<label for="кот3">Белый котик</label>
+</div>
+<div>
+    <select>
+        <option value="Красный">Красный</option>
+        <option value="Желтый">Желтый</option>
+        <option value="Белый">Белый</option>
+    </select>
+     <input type="file"/>
+</div>
+</form>
+</div>
+    <div class="box">
+    <img class="containd"
+
+src="img/17828536.jpg"
+ alt="Аватарка"
+/>
+</div>
+<div>
+    <audio controls loop preload="auto" muted>
+        <source src="m/Дискотека Авария - Новогодняя.mp3" type="audio/mp3"/>
+        <source src="m/Дискотека Авария - Новогодняя.wav" type="audio/wav"/>
+        <p>Пожайлуста,<a href="m/Дискотека Авария - Новогодняя.mp3" download="">скачайте</a>audio</p>
+    </audio>
+</div>
+<picture>
+<source  srcset="img/fd1140534a3d11eeb6a9f613a19d9dde_upscaled copy.jpg" type="image/jpg" madia="(min-width:2100px)"/>
+ <source srcset="img/fd1140534a3d11eeb6a9f613a19d9dde_upscaled copy500  copy.jpg" type="image/jpg" madia="(min-width:1500px)"/>
+ <img
+ src="img/fd1140534a3d11eeb6a9f613a19d9dde_upscaled copy500 .jpg"
+  alt="img"
+ />
+</picture>
+<video controls loop muted width="700px"preload="auto" poster="img/fd1140534a3d11eeb6a9f613a19d9dde_upscaled copy500 .jpg">
+    <source 
+    scr="D:\Новая папка\video\Cat saying Huh! (720p).mp4" type="video/mp4"/>
+    <source 
+    scr="D:\Новая папка\video\Cat saying Huh! (720p).ovg" type="video/ovg"/>
+    <p>Пожайлуста,<a href="D:\Новая папка\video\Cat saying Huh! (720p).mp4" download="">скачайте</a>video</p>
+</video>
+</body>
+        </html>
